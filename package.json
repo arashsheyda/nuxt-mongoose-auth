@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-mongoose-auth",
+  "type": "module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./nuxt.config.ts",
+  "files": [
+    "components",
+    "composables",
+    "middleware",
+    "modules",
+    "plugins",
+    "server",
+    "types",
+    "nuxt.config.ts"
+  ],
+  "scripts": {
+    "dev": "nuxt dev .playground",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^1.1.0",
+    "@nuxt/devtools": "latest",
+    "@types/bcryptjs": "^2.4.5",
+    "@types/jsonwebtoken": "^9.0.4",
+    "eslint": "^8.52.0",
+    "nuxt": "^3.8.0",
+    "vue": "^3.3.7",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "h3-zod": "^0.5.2",
+    "jose": "^5.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.22.4"
+  }
+}

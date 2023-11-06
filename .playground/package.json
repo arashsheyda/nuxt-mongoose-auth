@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-mongoose-auth-playground",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@iconify-json/ph": "^1.1.6",
+    "@nuxt/ui": "^2.10.0",
+    "@nuxt/ui-pro": "^0.4.1",
+    "nuxt-mongoose": "^1.0.3"
+  }
+}
