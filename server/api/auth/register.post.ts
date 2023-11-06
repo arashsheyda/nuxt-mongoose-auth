@@ -8,7 +8,7 @@ export default defineEventHandler(async (event) => {
   const hashed = bcrypt.hashSync(password, 10)
 
   try {
-    await mongoose.connection.db.collection('users').insertOne({ email, password: hashed ...rest })
+    await mongoose.connection.db.collection('users').insertOne({ email, password: hashed, ...rest })
   } catch (error) {
     throw createError({
       statusMessage: 'user already registered.',
